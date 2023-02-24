@@ -4,7 +4,7 @@ function Card({src}) {
   return (
     <div className="col-lg-4 mt-4 col-sm-12" >
       <div className="card bg-dark text-white border-0">
-        <img src={src} className="card-img" alt="..." />
+        {/* <img src={src} className="card-img" alt="..." /> */}
         <div className="card-img-overlay">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">

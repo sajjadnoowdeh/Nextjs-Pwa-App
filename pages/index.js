@@ -1,12 +1,12 @@
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
-
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="p-0">
       <Navbar />
       <div className="w-100">
-        <img src="/home.jpg" className="img-fluid" />
+        <Image src={("/home.jpg")} width={50} height={50} alt={"home"} className="img-fluid" />
       </div>
       <div className="container my-5">
         <div className="row">
